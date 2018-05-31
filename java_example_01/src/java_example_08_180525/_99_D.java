@@ -1,6 +1,6 @@
 package java_example_08_180525;
 
-import java_example_09_180529._06_A;
+import java_example_10_180529._06_A;
 
 public class _99_D extends _06_A{
 
