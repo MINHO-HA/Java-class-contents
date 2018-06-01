@@ -80,6 +80,7 @@ public class _24_CountableTest {
 			//조건문을 이용해서 배열에 저장된 각 요소가 Bird클래스 타입인지 확인~~~~~
 			if(array[i] instanceof _22_Bird ) {
 				((_22_Bird)array[i]).fly();
+				
 			} else {
 				((_23_Tree)array[i]).ripen();
 			}
