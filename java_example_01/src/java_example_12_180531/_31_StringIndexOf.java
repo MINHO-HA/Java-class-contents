@@ -44,10 +44,15 @@ public class _31_StringIndexOf {
 		String tel1 = "     02";
 		String tel2 = "1234     ";
 		String tel3 = "   55555    ";
+		String tel4 = "12323 123123 2342423 333   ";
+		String tel5 = "SDFDS SDFDS DSDS";
+		
 		
 		String tel= tel1.trim()+tel2.trim()+tel3.trim();
 		System.out.println(tel);
 		System.out.println("----------------------");
+		String tel6 = tel4.trim()+tel5.trim();
+		System.out.println(tel6);
 		
 		
 		
