@@ -19,7 +19,7 @@ public class ParseEng extends Article{
 	}
 
 	public void  parseEng(String contents) {
-		
+	    // 변경 전에 split()
 	    // Lowercase로 변경.(추가기능 : 's 구분을 추후에 삽입) >> 다형이가 작성한 가이드
 		String Lowercase = contents; //String 타입의 Lowercase 매개변수에 스캐너로 입력받을 내용(문장) contents 대입.
 		String LowercaseContents = Lowercase.toLowerCase(); //대입된 내용(Lowercase) 매개변수를 내재되어있는 메소드 (toLowerCase)를 이용하여 
